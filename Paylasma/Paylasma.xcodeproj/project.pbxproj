@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07312400298F950600279455 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073123FF298F950600279455 /* FeedViewController.swift */; };
+		07312402298F952500279455 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07312401298F952500279455 /* SettingsViewController.swift */; };
+		07312404298F955E00279455 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07312403298F955E00279455 /* UploadViewController.swift */; };
+		07964E6729896D580019C35E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07964E6629896D580019C35E /* AppDelegate.swift */; };
+		07964E6929896D580019C35E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07964E6829896D580019C35E /* SceneDelegate.swift */; };
+		07964E6B29896D580019C35E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07964E6A29896D580019C35E /* ViewController.swift */; };
+		07964E6E29896D580019C35E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07964E6C29896D580019C35E /* Main.storyboard */; };
+		07964E7029896D590019C35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07964E6F29896D590019C35E /* Assets.xcassets */; };
+		07964E7329896D590019C35E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07964E7129896D590019C35E /* LaunchScreen.storyboard */; };
+		07964E7B29896DCE0019C35E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07964E7A29896DCE0019C35E /* GoogleService-Info.plist */; };
+		07964E7E29896EA90019C35E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 07964E7D29896EA90019C35E /* FirebaseAuth */; };
+		07964E8029896EA90019C35E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 07964E7F29896EA90019C35E /* FirebaseFirestore */; };
+		07964E8229896EA90019C35E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 07964E8129896EA90019C35E /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		073123FF298F950600279455 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		07312401298F952500279455 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		07312403298F955E00279455 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		07964E6329896D580019C35E /* Paylasma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paylasma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07964E6629896D580019C35E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07964E6829896D580019C35E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		07964E6A29896D580019C35E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07964E6D29896D580019C35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07964E6F29896D590019C35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07964E7229896D590019C35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07964E7429896D590019C35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07964E7A29896DCE0019C35E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07964E6029896D580019C35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07964E7E29896EA90019C35E /* FirebaseAuth in Frameworks */,
+				07964E8029896EA90019C35E /* FirebaseFirestore in Frameworks */,
+				07964E8229896EA90019C35E /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07964E5A29896D580019C35E = {
+			isa = PBXGroup;
+			children = (
+				07964E6529896D580019C35E /* Paylasma */,
+				07964E6429896D580019C35E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07964E6429896D580019C35E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07964E6329896D580019C35E /* Paylasma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07964E6529896D580019C35E /* Paylasma */ = {
+			isa = PBXGroup;
+			children = (
+				07964E7A29896DCE0019C35E /* GoogleService-Info.plist */,
+				07964E6629896D580019C35E /* AppDelegate.swift */,
+				07964E6829896D580019C35E /* SceneDelegate.swift */,
+				07964E6A29896D580019C35E /* ViewController.swift */,
+				073123FF298F950600279455 /* FeedViewController.swift */,
+				07312401298F952500279455 /* SettingsViewController.swift */,
+				07312403298F955E00279455 /* UploadViewController.swift */,
+				07964E6C29896D580019C35E /* Main.storyboard */,
+				07964E6F29896D590019C35E /* Assets.xcassets */,
+				07964E7129896D590019C35E /* LaunchScreen.storyboard */,
+				07964E7429896D590019C35E /* Info.plist */,
+			);
+			path = Paylasma;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07964E6229896D580019C35E /* Paylasma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07964E7729896D590019C35E /* Build configuration list for PBXNativeTarget "Paylasma" */;
+			buildPhases = (
+				07964E5F29896D580019C35E /* Sources */,
+				07964E6029896D580019C35E /* Frameworks */,
+				07964E6129896D580019C35E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paylasma;
+			packageProductDependencies = (
+				07964E7D29896EA90019C35E /* FirebaseAuth */,
+				07964E7F29896EA90019C35E /* FirebaseFirestore */,
+				07964E8129896EA90019C35E /* FirebaseStorage */,
+			);
+			productName = Paylasma;
+			productReference = 07964E6329896D580019C35E /* Paylasma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07964E5B29896D580019C35E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					07964E6229896D580019C35E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 07964E5E29896D580019C35E /* Build configuration list for PBXProject "Paylasma" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07964E5A29896D580019C35E;
+			packageReferences = (
+				07964E7C29896EA90019C35E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 07964E6429896D580019C35E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07964E6229896D580019C35E /* Paylasma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07964E6129896D580019C35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07964E7329896D590019C35E /* LaunchScreen.storyboard in Resources */,
+				07964E7B29896DCE0019C35E /* GoogleService-Info.plist in Resources */,
+				07964E7029896D590019C35E /* Assets.xcassets in Resources */,
+				07964E6E29896D580019C35E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07964E5F29896D580019C35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07964E6B29896D580019C35E /* ViewController.swift in Sources */,
+				07312404298F955E00279455 /* UploadViewController.swift in Sources */,
+				07964E6729896D580019C35E /* AppDelegate.swift in Sources */,
+				07312400298F950600279455 /* FeedViewController.swift in Sources */,
+				07312402298F952500279455 /* SettingsViewController.swift in Sources */,
+				07964E6929896D580019C35E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07964E6C29896D580019C35E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07964E6D29896D580019C35E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07964E7129896D590019C35E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07964E7229896D590019C35E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07964E7529896D590019C35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07964E7629896D590019C35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07964E7829896D590019C35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29A9N8YV49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Paylasma/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suleymanyazici.Paylasma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07964E7929896D590019C35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29A9N8YV49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Paylasma/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suleymanyazici.Paylasma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07964E5E29896D580019C35E /* Build configuration list for PBXProject "Paylasma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07964E7529896D590019C35E /* Debug */,
+				07964E7629896D590019C35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07964E7729896D590019C35E /* Build configuration list for PBXNativeTarget "Paylasma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07964E7829896D590019C35E /* Debug */,
+				07964E7929896D590019C35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07964E7C29896EA90019C35E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07964E7D29896EA90019C35E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07964E7C29896EA90019C35E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		07964E7F29896EA90019C35E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07964E7C29896EA90019C35E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		07964E8129896EA90019C35E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07964E7C29896EA90019C35E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 07964E5B29896D580019C35E /* Project object */;
+}
