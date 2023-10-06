@@ -22,8 +22,7 @@ Sonuç olarak, Swift programlama dili beni etkileyen güçlü ve sezgisel bir di
 
 ## Projenin Amacı ⁉️
 
-Swift ile ilgili temel konuları not alarak ve örneklerle bu işlemi pekiştirmek adına yaptığım bir çalışmadır. Öğrendiklerimi pekiştirmek, farklı projeler geliştirmek amacıyla oluşturulmuş bir bulunmaktayım.
-
+Swift ile ilgili temel konuları not alarak ve örneklerle bu işlemi pekiştirmek adına yaptığım bir çalışmadır. Öğrendiklerimi farklı projeler geliştirmek amacıyla oluşturulmuş bir projeler bütünüdür.
 
 
 ## Proje İçeriği 🎁
