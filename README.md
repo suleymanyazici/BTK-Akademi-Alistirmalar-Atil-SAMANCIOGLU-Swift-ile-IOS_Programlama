@@ -13,7 +13,7 @@
 
 Swift, benim için büyük ilgi uyandıran bir programlama dilidir. Özellikle iOS, iPadOS, macOS, tvOS ve watchOS gibi Apple platformlarında kullanılabilmesi büyük bir kolaylık sağlıyor.  Söz dizimi kısa ve anlamlı olduğu için kod yazarken daha az çaba harcamamı sağlıyor.
 
-Swift, geliştiricilere modern programlama dilinin tüm avantajlarını sunuyor. Fonksiyonel ve nesne yönelimli programlama yetenekleri gibi modern özellikleri içeriyor. Bu, geliştiricilerin daha temiz ve düzenli kod yazmalarını kolaylaştırırken, aynı zamanda hızlı ve verimli uygulamalar geliştirmelerine olanak tanır.
+Swift, geliştiricilere modern programlama dilinin tüm avantajlarını sunuyor. Fonksiyonel ve nesne yönelimli programlama yetenekleri gibi modern özellikleri içeriyor. Bu, geliştiricilerin daha temiz ve düzenli kod yazmalarını kolaylaştırırken, aynı zamanda hızlı ve verimli uygulamalar geliştirmelerine olanak tanıyor.
 
 En önemlisi, Swift kodu tasarımı gereği güvenli ve güvenilirdir. Dil, tip güvenliği ve güçlü hata denetimi gibi özelliklerle donatılmıştır, bu da programcıların hataları önlemesine ve daha güvenilir yazılımlar oluşturmasına yardımcı olmaktadır. Ayrıca, Swift'in performansı da etkileyici. Hızlı çalışma zamanı beni cezbeden bir diğer alan olmuştur.
 
